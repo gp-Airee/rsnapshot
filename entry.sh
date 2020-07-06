@@ -9,7 +9,7 @@ cmd_rm	/bin/rm
 cmd_rsync	/usr/bin/rsync
 cmd_ssh	/usr/bin/ssh
 ssh_args	-p 9030 -i /key -o StrictHostKeychecking=no -o UserKnownHostsFile=/dev/null
-verbose	3
+verbose	5
 lockfile	/var/run/rsnapshot.pid
 retain	client	28
 backup	${BACKUP_SOURCE}	${BACKUP_NAME}
